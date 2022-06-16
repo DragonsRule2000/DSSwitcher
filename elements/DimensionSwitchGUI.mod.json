@@ -1,0 +1,63 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Dimension Switcher",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Dimension Switcher",
+          "x": 164,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Nether",
+          "onClick": {
+            "name": "DSGUINether"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Nether",
+          "x": 185,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Overworld",
+          "onClick": {
+            "name": "DSGUIOverworld"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Overworld",
+          "x": 177,
+          "y": 94
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
