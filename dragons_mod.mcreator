@@ -95,8 +95,8 @@
   "workspaceSettings": {
     "modid": "dragons_mod",
     "modName": "Dragons Mod",
-    "version": "1.0.0",
-    "author": "tjkor, MCreator",
+    "version": "1.0.3",
+    "author": "Dragon, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
